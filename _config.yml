@@ -80,3 +80,15 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:iineva/iineva.github.io
+
+asset_pipeline:
+  revisioning:
+    enable: false
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: false
+  html_minifier:
+    enable: true
