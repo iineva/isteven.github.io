@@ -79,4 +79,4 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:iineva/ineva.cn
+  repo: git@github.com:iineva/iineva.github.io

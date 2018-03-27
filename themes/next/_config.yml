@@ -504,7 +504,7 @@ gitment:
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: iineva # MUST HAVE, Your Github Username
-  github_repo: ineva.cn # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_repo: iineva.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: 99008637871cec10f101 # MUST HAVE, Github client id for the Gitment
   client_secret: 2f2fc5715f9c47253a11e5b2bdcf401b01086a64 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
