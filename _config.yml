@@ -78,9 +78,5 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
-# scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+  type: git
+  repo: git@github.com:iineva/ineva.cn
