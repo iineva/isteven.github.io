@@ -115,7 +115,7 @@ index_with_subtitle: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
+  about: https://github.com/iineva || user
   tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
@@ -759,7 +759,7 @@ reading_progress:
 # Use velocity to animate everything.
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
