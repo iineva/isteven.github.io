@@ -572,6 +572,12 @@ needmoreshare2:
 # CNZZ count
 #cnzz_siteid:
 
+# Countly
+# See: https://count.ly/
+countly:
+  url: https://countly.ineva.cn
+  app_key: 9b4910a77d1f2d4d15619c2819bf3a0cded336a3
+
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
