@@ -1,0 +1,6 @@
+[submodule "themes/next/source/lib/jquery_lazyload"]
+	path = themes/next/source/lib/jquery_lazyload
+	url = https://github.com/theme-next/theme-next-jquery-lazyload
+[submodule "themes/next/source/lib/fastclick"]
+	path = themes/next/source/lib/fastclick
+	url = https://github.com/theme-next/theme-next-fastclick
