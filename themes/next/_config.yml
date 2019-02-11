@@ -452,7 +452,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 574d1ac4a8c7e07d4388ac171628ab6f
 
 # Disqus
 disqus:
@@ -574,9 +574,9 @@ needmoreshare2:
 
 # Countly
 # See: https://count.ly/
-countly:
-  url: https://countly.ineva.cn
-  app_key: 9b4910a77d1f2d4d15619c2819bf3a0cded336a3
+# countly:
+#   url: https://countly.ineva.cn
+#   app_key: 9b4910a77d1f2d4d15619c2819bf3a0cded336a3
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
