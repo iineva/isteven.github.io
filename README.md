@@ -1,6 +1,7 @@
 # Init
 
 ```bash
+git submodule update --init --recursive
 npm install hexo -g
 npm install
 ```
