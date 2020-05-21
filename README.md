@@ -20,5 +20,5 @@ hexo server
 # Deploy
 
 ```bash
-hexo deploy
+hexo deploy -g
 ```
