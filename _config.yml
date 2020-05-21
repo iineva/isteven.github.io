@@ -80,6 +80,7 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:iineva/iineva.github.io
+  branch: gh-pages
 
 asset_pipeline:
   revisioning:
