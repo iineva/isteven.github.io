@@ -179,3 +179,45 @@ controller:
           - ocsp.int-x3.letsencrypt.org
     ...
 ```
+
+## 最后附上测试脚本，验证是否成功
+
+```bash
+echo QUIT | openssl s_client -connect xxxxxxxxx.com:443 -servername xxxxxxxxx.com -status 2> /dev/null | grep -A 17 'OCSP response:'
+```
+
+输出以下内容说明开启并获取 OCSP Stapling 成功
+
+```bash
+OCSP response:
+======================================
+OCSP Response Data:
+    OCSP Response Status: successful (0x0)
+    Response Type: Basic OCSP Response
+    Version: 1 (0x0)
+    Responder Id: C = US, O = Let's Encrypt, CN = Let's Encrypt Authority X3
+    Produced At: May 19 11:26:00 2020 GMT
+    Responses:
+    Certificate ID:
+      Hash Algorithm: sha1
+      Issuer Name Hash: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      Issuer Key Hash: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      Serial Number: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    Cert Status: good
+    This Update: May 19 11:00:00 2020 GMT
+    Next Update: May 26 11:00:00 2020 GMT
+```
+
+输出以下内容说明开启并获取 OCSP Stapling 失败
+
+```bash
+OCSP response: no response sent
+---
+Certificate chain
+ 0 s:/CN=xxxxxxx.com
+   i:/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+ 1 s:/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+   i:/O=Digital Signature Trust Co./CN=DST Root CA X3
+---
+Server certificate
+```
