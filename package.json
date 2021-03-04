@@ -2,16 +2,16 @@
     "name": "hexo-site",
     "version": "0.0.0",
     "private": true,
+    "hexo": {
+        "version": "3.9.0"
+    },
     "scripts": {
-        "start": "hexo server",
+        "server": "hexo server",
         "build": "hexo generate",
         "deploy": "hexo deploy -g"
     },
-    "hexo": {
-        "version": "3.8.0"
-    },
     "dependencies": {
-        "hexo": "3.8.0",
+        "hexo": "3.9.0",
         "hexo-asset-pipeline": "^1.4.2",
         "hexo-deployer-git": "^1.0.0",
         "hexo-generator-archive": "^0.1.4",
