@@ -15,7 +15,7 @@ npx hexo new "My fist post."
 # Local server for test
 
 ```bash
-npm start
+npm run server
 ```
 
 # Build
