@@ -9,17 +9,23 @@ npm install
 # Create post
 
 ```bash
-hexo new "My fist post."
+npx hexo new "My fist post."
 ```
 
 # Local server for test
 
 ```bash
-hexo server
+npm start
+```
+
+# Build
+
+```bash
+npm run build
 ```
 
 # Deploy
 
 ```bash
-hexo deploy -g
+npm run deploy
 ```
