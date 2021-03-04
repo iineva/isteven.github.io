@@ -17,7 +17,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-        node-version: '12'
+          node-version: '12'
 
       - name: Use NPM or Yarn install caching
         uses: bahmutov/npm-install@v1
