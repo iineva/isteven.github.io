@@ -33,5 +33,5 @@ $ docker-compose up -d
 ![图片描述][2]
 
 
-  [1]: https://github.com/iineva/ipa-server/raw/master/snapshot/zh-cn/1.jpeg
-  [2]: https://github.com/iineva/ipa-server/raw/master/snapshot/zh-cn/2.jpeg
+  [1]: https://github.com/iineva/ipa-server/raw/main/snapshot/zh-cn/1.jpeg
+  [2]: https://github.com/iineva/ipa-server/raw/main/snapshot/zh-cn/2.jpeg
