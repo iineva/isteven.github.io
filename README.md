@@ -2,8 +2,7 @@
 
 ```bash
 git submodule update --init --recursive
-npm install hexo -g
-npm install
+yarn
 ```
 
 # Create post
@@ -15,13 +14,13 @@ npx hexo new "My fist post."
 # Local server for test
 
 ```bash
-npm run server
+yarn server
 ```
 
 # Build
 
 ```bash
-npm run build
+yarn build
 ```
 
 # Deploy
